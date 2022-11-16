@@ -133,3 +133,19 @@ img {
     width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+}
