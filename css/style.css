@@ -142,10 +142,15 @@ img {
         width: 100%;
         margin-bottom: 4rem;
     }
+    .steps,
+    .row .col:last-child {
+        margin-bottom: 0;
+    }
 
     .why-us {
         background-color: black;
         margin-bottom: 0;
         padding: 3rem 0;
     }
+
 }
